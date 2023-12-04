@@ -1,16 +1,8 @@
 # Mijn oba
-![image](https://github.com/OvenMagnetron/oba/assets/91184609/e24fd9ad-46df-4b2c-9b27-6f893434e313)
 
 ## User Story
 
 >Als gebruiker wil ik kunnen zoeken zodat in de hele website.
-
->Functies:
-> * Beschikbare diensten
-> * Laatst geleende boeken
-> * In te leveren boeken om boete te voorkomen
-> * Familie overzicht
-
 
 ## Inhoudsopgave
   * [📝 Beschrijving](#beschrijving)  
