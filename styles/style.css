@@ -600,6 +600,11 @@ select option {
     display: none;
 }
 
+.input-field.focused {
+    border: 2px solid var(--tertiary-color);
+    /* Change the border style as needed */
+}
+
 
 /* End page: Welkom/Home */
 
