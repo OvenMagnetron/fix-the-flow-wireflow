@@ -596,6 +596,11 @@ select option {
     height: auto;
 }
 
+.hidden {
+    display: none;
+}
+
+
 /* End page: Welkom/Home */
 
 /* Start page: Leeslijst */

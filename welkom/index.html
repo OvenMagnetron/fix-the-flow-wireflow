@@ -127,25 +127,33 @@
     </nav>
 
     <section class="container">
-        <article>
+        <article id="introContainer">
             <h1>Welkom bij Mijn OBA!</h1>
             <p>Hier kunt u uw materialen
                 verlengen, reserveringen bekijken en uw uitleengeschiedenis raadplegen.</p>
-            <hr>
         </article>
+        <hr>
         <article class="searchContainer">
             <h2>Waar bent u naar op zoek?</h2>
             <form class="searchForm">
-                <input class="input-field" value="" type="text" name="query" placeholder="Voer een zoekterm in...">
+                <input class="input-field" value="" type="text" name="query" placeholder="Voer een zoekterm in..."
+                    id="searchForm">
                 <button type="submit" class="btn">Zoeken <i class='bx bx-right-arrow-alt'></i></button>
             </form>
-            <hr>
         </article>
-        <h2>Nieuwsbrief</h2>
-        <img class="banner" src="../image/banner-nieuwsbrief.png" alt="">
-        <p>Nooit meer iets missen? Meld je aan voor een nieuwsbrief van de OBA en blijf op de hoogte van nieuws en leuke
-            activiteiten in Amsterdam. </p>
-        <a href="#"><button class="btn themebtn">Aanmelden</button></a>
+        <hr>
+        <article id="resultsContainer" class="hidden">
+            <h3>Resultaten</h3>
+        </article>
+        <article id="nieuwsbriefContainer">
+            <h2>Nieuwsbrief</h2>
+            <img class="banner" src="../image/banner-nieuwsbrief.png" alt="">
+            <p>Nooit meer iets missen? Meld je aan voor een nieuwsbrief van de OBA en blijf op de hoogte van nieuws en
+                leuke
+                activiteiten in Amsterdam. </p>
+            <a href="#"><button class="btn themebtn">Aanmelden</button></a>
+        </article>
+        <button class="btn" id="toggleButton">Terug <i class='bx bx-right-arrow-alt'></i></button>
 
     </section>
 
