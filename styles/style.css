@@ -596,15 +596,17 @@ select option {
     height: auto;
 }
 
-.hidden {
+.searchContainer:has(input:focus)~#nieuwsbriefContainer {
     display: none;
 }
 
-.input-field.focused {
-    border: 2px solid var(--tertiary-color);
-    /* Change the border style as needed */
+.searchContainer:not(:has(input:focus))~#resultsContainer {
+    display: none;
 }
 
+.input-field:not(:placeholder-shown) {
+    border: 2px solid var(--tertiary-color);
+}
 
 /* End page: Welkom/Home */
 
