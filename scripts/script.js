@@ -18,14 +18,14 @@ searchBtn.addEventListener("click", () => {
 })
 
 searchInput.addEventListener("focus", () => {
-    introContainer.classList.add("hidden");
+    // introContainer.classList.add("hidden");
     resultsContainer.classList.remove("hidden");
     toggleButton.classList.remove("hidden");
     nieuwsbriefContainer.classList.add("hidden");
 });
 
 toggleButton.addEventListener("click", () => {
-    introContainer.classList.remove("hidden");
+    // introContainer.classList.remove("hidden");
     resultsContainer.classList.add("hidden");
     toggleButton.classList.add("hidden");
     nieuwsbriefContainer.classList.remove("hidden");
