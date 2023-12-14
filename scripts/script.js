@@ -10,3 +10,12 @@ toggle.addEventListener("click", () => {
 searchBtn.addEventListener("click", () => {
     sidebar.classList.remove("close");
 })
+
+const likebtn = document.querySelector('#likeButton')
+
+function likeButton() {
+    likebtn.classList.toggle("bx-heart");
+    likebtn.classList.toggle("bxs-heart");
+    likebtn.classList.toggle("changeColor");
+    likebtn.classList.toggle("jump");
+}
