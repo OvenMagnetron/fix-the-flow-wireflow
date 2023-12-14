@@ -495,20 +495,20 @@ select option {
     object-position: center;
 }
 
-.slider-details {
+.slider-details, .result-details {
     padding: 20px;
     background-color: var(--quaternary--color);
     width: 500px;
     border-radius: 0px 10px 10px 0px;
 }
 
-.slider-details p {
+.slider-details p, .result-details p {
     color: var(--text-color);
     font-size: var(--small-text);
     margin: 20px 0px 20px 0px;
 }
 
-.slider-details strong {
+.slider-details strong, .result-details strong {
     color: var(--text-color);
     font-size: var(--large-text);
     font-weight: var(--secondary-weight);
@@ -581,7 +581,6 @@ select option {
     cursor: pointer;
     text-decoration: unset;
 }
-
 /* EINDE LOGIN PAGINA */
 
 /* Start page: Welkom/Home */
@@ -762,7 +761,7 @@ ul.account-list {
         border-radius: 10px 10px 0px 0px;
     }
 
-    .slider-details strong {
+    .slider-details strong, .result-details strong {
         font-size: 1rem;
     }
 
