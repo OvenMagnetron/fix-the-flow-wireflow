@@ -11,11 +11,9 @@ searchBtn.addEventListener("click", () => {
     sidebar.classList.remove("close");
 })
 
-const likebtn = document.querySelector('#likeButton')
-
-function likeButton() {
-    likebtn.classList.toggle("bx-heart");
-    likebtn.classList.toggle("bxs-heart");
-    likebtn.classList.toggle("changeColor");
-    likebtn.classList.toggle("jump");
+function likeButton(clickedButton) {
+    clickedButton.querySelector('i').classList.toggle("bx-heart");
+    clickedButton.querySelector('i').classList.toggle("bxs-heart");
+    clickedButton.querySelector('i').classList.toggle("changeColor");
+    clickedButton.querySelector('i').classList.toggle("jump");
 }
