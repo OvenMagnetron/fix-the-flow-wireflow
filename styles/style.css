@@ -309,7 +309,7 @@ select#filters option {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .menu-bar::-webkit-scrollbar {
