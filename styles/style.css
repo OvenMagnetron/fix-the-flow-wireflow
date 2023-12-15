@@ -494,20 +494,23 @@ select option {
     object-position: center;
 }
 
-.slider-details, .result-details {
+.slider-details,
+.result-details {
     padding: 20px;
     background-color: var(--quaternary--color);
     width: 500px;
     border-radius: 0px 10px 10px 0px;
 }
 
-.slider-details p, .result-details p {
+.slider-details p,
+.result-details p {
     color: var(--text-color);
     font-size: var(--small-text);
     margin: 20px 0px 20px 0px;
 }
 
-.slider-details strong, .result-details strong {
+.slider-details strong,
+.result-details strong {
     color: var(--text-color);
     font-size: var(--large-text);
     font-weight: var(--secondary-weight);
@@ -580,11 +583,14 @@ select option {
     cursor: pointer;
     text-decoration: unset;
 }
+
 /* EINDE LOGIN PAGINA */
 
 /* Start page: Welkom/Home */
 
-.searchContainer {
+.searchContainer,
+#nieuwsbriefContainer,
+#resultsContainer {
     margin-block: var(--secondary-space);
 }
 
@@ -609,9 +615,13 @@ select option {
     margin: var(--secondary-space) 0 var(--secondary-space) 0;
 }
 
+.result-details {
+    border-radius: 10px;
+}
+
 .changeColor {
     color: var(--primary-color);
-  }
+}
 
 .jump {
     animation-name: jump;
@@ -619,34 +629,34 @@ select option {
     animation-duration: 1.2s;
     animation-iteration-count: 1;
 }
-  
+
 @keyframes jump {
     0% {
-      transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0);
     }
-  
+
     10% {
-      transform: scale(1.1, 0.9) translateY(0);
+        transform: scale(1.1, 0.9) translateY(0);
     }
-  
+
     30% {
-      transform: scale(0.9, 1.1) translateY(-1rem) rotate(10deg);
+        transform: scale(0.9, 1.1) translateY(-1rem) rotate(10deg);
     }
-  
+
     50% {
-      transform: scale(1.05, 0.95) translateY(0);
+        transform: scale(1.05, 0.95) translateY(0);
     }
-  
+
     57% {
-      transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
+        transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
     }
-  
+
     64% {
-      transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0);
     }
-  
+
     100% {
-      transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0);
     }
 }
 
@@ -760,7 +770,8 @@ ul.account-list {
         border-radius: 10px 10px 0px 0px;
     }
 
-    .slider-details strong, .result-details strong {
+    .slider-details strong,
+    .result-details strong {
         font-size: 1rem;
     }
 
