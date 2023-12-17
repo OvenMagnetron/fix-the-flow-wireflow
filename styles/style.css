@@ -586,6 +586,50 @@ select option {
 
 /* EINDE LOGIN PAGINA */
 
+/* Popup */
+
+#popupContainer {
+    background-color: var(--quaternary--color);
+    padding: var(--secondary-space);
+    border-radius: 10px;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+
+#popupContainer h2 i {
+    color: green;
+}
+
+.poof {
+    animation-name: poof;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes poof {
+    0% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0.8;
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Einde popup */
+
 /* Start page: Welkom/Home */
 
 .searchContainer,
@@ -747,6 +791,11 @@ ul.account-list {
 /* Responsive */
 
 @media screen and (max-width: 820px) {
+
+    /* Popup */
+    #popupContainer {
+        width: 60%
+    }
 
     /* Forms */
     .searchForm,
