@@ -245,6 +245,7 @@ header .image-text .profession {
 }
 
 .sidebar .menu {
+    overflow: hidden;
     margin-top: 18px;
 }
 
@@ -631,6 +632,37 @@ select option {
 
 /* Einde popup */
 
+/* Tooltip (Info knop hover) */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: var(--primary-space);
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Einde tooltip */
+
 /* Start page: Welkom/Home */
 
 .searchContainer,
@@ -658,10 +690,19 @@ select option {
     flex-wrap: wrap;
     gap: var(--secondary-space);
     margin: var(--secondary-space) 0 var(--secondary-space) 0;
+    justify-content: space-between;
 }
 
 .result-details {
     border-radius: 10px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--primary-space);
 }
 
 .changeColor {
@@ -829,9 +870,6 @@ ul.account-list {
         width: 230px !important;
     }
 
-    .filters {
-        right: unset;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -895,5 +933,10 @@ ul.account-list {
 
     .container {
         top: 7.5%;
+    }
+
+    .titleContainer .filters {
+        right: unset;
+        position: unset;
     }
 }

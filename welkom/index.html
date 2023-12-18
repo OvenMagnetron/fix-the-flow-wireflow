@@ -143,7 +143,21 @@
         </article>
         <hr>
         <article id="resultsContainer">
-            <h2>Resultaten</h2>
+            <article class="titleContainer">
+                <h2>Resultaten</h2>
+                <article class="tooltip"> <i class='bx bx-info-circle'></i>
+                    <span class="tooltiptext">Druk op het hartje om een boek aan je leestlijst toe te voegen.</span>
+                </article>
+                <article class="filters">
+                    <label for="filters">Filteren op:</label>
+                    <select name="filters" id="filters">
+                        <option value="1">Titels</option>
+                        <option value="2">Genre</option>
+                        <option value="3">Schrijver</option>
+                        <option value="4">Uitgeefdatum</option>
+                    </select>
+                </article>
+            </article>
             <section class="resultsWrapper">
                 <article class="result-details">
                     <strong>The Art City (2019)</strong>
