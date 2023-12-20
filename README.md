@@ -4,7 +4,7 @@
 
 ## User Story
 
->Als gebruiker wil ik kunnen zoeken op de site zodat ik gemakkelijk boeken kan vinden.
+>Als gebruiker wil ik kunnen zoeken op de website zodat ik gemakkelijk boeken kan vinden die bij mij passen.
 
 ## Inhoudsopgave
   * [📝 Beschrijving](#beschrijving)  
