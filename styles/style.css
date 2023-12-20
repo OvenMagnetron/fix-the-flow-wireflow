@@ -68,6 +68,15 @@
     --tran-05: all 0.3s ease;
 }
 
+*:focus-visible {
+    outline: none;
+}
+
+*:focus {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
 
 body {
     min-height: 100vh;
