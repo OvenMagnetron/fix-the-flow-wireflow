@@ -1,8 +1,10 @@
-# Mijn oba
+# Mijn OBA (Zoeken)
+
+![Zoek functie](https://github.com/OvenMagnetron/fix-the-flow-wireflow/assets/91184609/c2d3c816-5b39-43ce-92b9-f50fe2da0f26)
 
 ## User Story
 
->Als gebruiker wil ik kunnen zoeken zodat in de hele website.
+>Als gebruiker wil ik kunnen zoeken op de site zodat ik gemakkelijk boeken kan vinden.
 
 ## Inhoudsopgave
   * [📝 Beschrijving](#beschrijving)  
@@ -12,7 +14,8 @@
   * [👾 Licentie](#licentie)  
 
 ## 📝Beschrijving
--
+Voor de mijn OBA omgeving moet er een zoekfunctie worden gemaakt. Via deze zoek functie moet ik boeken kunnen zoeken op Genres, Schrijvers, uitgeefdatum en boek naam.
+
 ## 🖇Gebruik
 
 * Open je favoriete webbrowser, zoals Google Chrome, Mozilla Firefox, Safari, etc.
